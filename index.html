@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Gonçalves | Desenvolvedor Full-Stack</title>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Rafael Gonçalves</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experiência</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__data">
+                    <span class="home__greeting">Olá, eu sou</span>
+                    <h1 class="home__title">Rafael Gonçalves</h1>
+                    <p class="home__subtitle">Desenvolvedor Full-Stack | C# | ASP.NET | JavaScript</p>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/rafa-gon%C3%A7alves/" target="_blank" class="home__social-icon">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Zipex-Dev" target="_blank" class="home__social-icon">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__img">
+                    <img src="assets/img/me.jpg" alt="Rafael Gonçalves">
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about__container container">
+                <div class="about__img">
+                    <img src="assets/img/me2.jpg" alt="Rafael Gonçalves">
+                </div>
+                <div class="about__data">
+                    <p class="about__text">Sou um programador full-stack apaixonado por tecnologia, com mais de 3 anos de experiência em criar soluções web robustas e intuitivas. Especializo-me em C#, ASP.NET, JavaScript e SQL Server, sempre buscando qualidade e inovação.</p>
+                    <div class="about__stats">
+                        <div class="about__stat"><span>3+</span> Anos de Experiência</div>
+                        <div class="about__stat"><span>10+</span> Projetos Concluídos</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills__container container">
+                <div class="skills__list">
+                    <div class="skill">
+                        <img src="assets/img/c-sharp.png" alt="">
+                        C# <span>85%</span>
+                    </div >
+                    <div class="skills__list">
+                        <div class="skill">
+                            <img src="assets/img/asp.net_.png" alt="" width="1113px">
+                            ASP.NET <span>80%</span>
+                        </div >
+                    <div class="skill"><i class="bx bxl-javascript"></i> JavaScript <span>70%</span></div>
+                    <div class="skill"><i class="bx bxl-html5"></i> HTML & CSS <span>70%</span></div>
+                    <div class="skill"><i class='bx bx-data bx-flip-vertical' ></i></i> SQL Server <span>75%</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experiência</h2>
+            <div class="experience__container container">
+                <div class="experience__item">
+                    <div class="experience__logo">
+                        <img src="assets/img/paos.png" alt="Logo PAOS">
+                    </div>
+                    <div class="experience__content">
+                        <h3 class="experience__title">Estagiário IT - PAOS</h3>
+                        <p class="experience__date">Out 2024 - Presente</p>
+                        <p class="experience__description">Desenvolvimento de aplicações Full-Stack.</p>
+                    </div>
+                </div>
+                <!-- Exemplo comentado para adicionar mais -->
+                <!-- <div class="experience__item">
+                    <div class="experience__logo">
+                        <img src="assets/img/abc-logo.jpg" alt="Logo Empresa ABC">
+                    </div>
+                    <div class="experience__content">
+                        <h3 class="experience__title">Estagiário de Desenvolvimento - Empresa ABC</h3>
+                        <p class="experience__date">Mar 2021 - Dez 2022</p>
+                        <p class="experience__description">Suporte no desenvolvimento de interfaces com HTML, CSS e JavaScript, além de testes e documentação de projetos.</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects__filters container">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="projects__container container">
+                <div class="project" data-category="web" >
+                    <div class="project__carousel" id="PlataformaEso">
+                        <img src="assets/img/project.jpg" alt="Plataforma Escolar - Imagem 1" class="project__img active">
+                        <img src="assets/img/project2.jpg" alt="Plataforma Escolar - Imagem 2" class="project__img">
+                        <img src="assets/img/notas.png" alt="Plataforma Escolar - Imagem 3" class="project__img">
+                        <img src="assets/img/notas2.png" alt="Plataforma Escolar - Imagem 4" class="project__img">
+                        <img src="assets/img/horario.png" alt="Plataforma Escolar - Imagem 5" class="project__img">
+                        <img src="assets/img/avaliacao.png" alt="Plataforma Escolar - Imagem 6" class="project__img">
+                        <img src="assets/img/reuniao.png" alt="Plataforma Escolar - Imagem 7" class="project__img">
+                        <img src="assets/img/reuniao2.png" alt="Plataforma Escolar - Imagem 8" class="project__img">
+                        <div class="project__info">
+                            <h3>Plataforma Escolar</h3>
+                            <p>ASP.NET / C# / JavaScript / CSS / SQL Server</p>
+                            <button class="btn" onclick="openPopup(PlataformaEso)">Ver Mais</button>
+                            <a href="https://github.com/Zipex-Dev/PlataformaEscolar" target="_blank" class="footer__social-icon">
+                                <i class="bx bxl-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-category="mobile">
+                    <div class="project__carousel" id="Mobile">
+                        <img src="assets/img/mobile.jpeg" alt="App Mobile - Imagem 1" class="project__img active">
+                        <div class="project__info">
+                            <h3>App Mobile</h3>
+                            <p>Still Building...No spoilers 😅</p>
+                            <button class="btn" onclick="openPopup(Mobile)">Ver Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Popup para visualização detalhada dos projetos -->
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup()">×</span>
+                    <div class="popup-carousel">
+            <img id="popup-img" src="" alt="Imagem do projeto">
+        </div>
+        <div class="popup-description">
+            <h3 id="popup-title">Título do Projeto</h3>
+            <p id="popup-text">Descrição da funcionalidade mostrada na imagem.</p>
+        </div>
+        <div class="popup-controls">
+            <button class="prev-btn">&#10094;</button>
+            <button class="next-btn">&#10095;</button>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/rafa-gon%C3%A7alves/" target="_blank" class="footer__social-icon">
+                <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://github.com/Zipex-Dev" target="_blank" class="footer__social-icon">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+        <p>© 2025 Rafael Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
